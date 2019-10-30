@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Hola Soy Juan Fernando</title>
+        <link rel="icon" type="image/png" href="Logo\icono.png">
+        <link rel="stylesheet" href="css\estilos.css">
+        <style>
+            header {
+                background: blue;
+            }
+            body{
+                background: burlywood!important;
+            }
+        </style>
+    </head>
+    <body>
+  <!----  Esto es un estilo en linea    <header style="color: red; background:blue;"-->
+        <header>
+            <figure>
+                <img src="Logo\Logo.png" alt="Logo de www.juanchotic.com"> Logo
+            </figure>
+            <nav> 
+                <ol>
+                   <li>
+                    <a href="#portafolio">Portafolio</a>
+                   </li>
+                    <li>
+                    <a href="#experiencia">Experiencia</a>
+                   </li>
+                    <li>
+                    <a href="#contacto">Trabajemos Juntos</a>
+                   </li>
+                </ol>
+            </nav>
+        </header>
+        <section> <!--Sección Principal-->
+            <h1>
+            Hola! Soy <strong>Juan Fernando</strong> tecnólogo <br/>en Sistemas Informáticos, <br/><strong>Desarrollador Frontend</strong> en Curso <br/>con pasión por el aprendizaje y la enseñanza
+            </h1>
+            <img src="" width="" height="" alt="Imagen Principal del Sitio"> 
+        </section>
+        <section>
+            <h2 id="portafolio">Portafolio (Proyectos Descatados)</h2>
+            <article>
+                <h3>Villa Platzi</h3>
+                <h6>HTML y JAVASCRIPT</h6>
+                <P><small><strong>Fecha:</strong> 27/10/2019</small></P>
+                <P><small><strong>Puedes verlo en:</strong> www.juanchotic.ga</small></P>
+                <p>Villa Platzi es uno de los proyectos realizados en 
+                    el curso de Programación Básica en la plataforma de educación Online de Platzi, Donde vamos a crear con JavaScript 
+                    figuras que se mueven al oprimir las teclas y elementos aleatorios.
+                </p>
+                <img width="300px" src="C:\Users\JuanFernando\OneDrive\PLATZI\Desarrollo Web Online\Mi Portafolio\Proyecto Villa Platzi.PNG" alt="Proyecto de Villa Platzi">
+            </article>
+        </section>
+        <section>
+            <h2 id="experiencia">Más sobre mi experiencia</h2>
+            <article>
+                <figure>
+                   <img src="C:\Users\JuanFernando\OneDrive\PLATZI\Desarrollo Web Online\Mi Portafolio\SENA - ECCL.jpg" width="300px"> 
+                </figure>
+                <h3>Monitorias en el área de Evaluación y Certificación por competencias Laborales SENA</h3>
+                <P>Realizar apoyo con la gestión documental, archivo y registro de candidatos a certificar por competencias laborales</P>
+                <a href="https://www.youtube.com/watch?v=0is_ls6TNSk" target="_blank">Ver más</a>
+            </article>
+        </section>
+        <section id="contacto">
+            <form action="/suscripcion/">
+                <h3>Creamos algo juntos?</h3>
+              <!--  <label for="email">Dejame tu Email</label> -->
+                <input type="text" placeholder="Dejame tu Correo" <!--value="@gmail.com-->" id="email"> 
+                <!--Recuerda que creamos un label donde: su enfoque es email, (al dar click en 
+                    el label este nos manda el cursor al text box y en el input de tipo texto creamos un id llamado email para asociar ambas etiquetas)-->
+                <!--placeholder es un texto que se antepone en el text box-->
+                <!--value es Valor Por defecto-->
+               <!-- <input type="submit" value="texto del boton"> <!--Submit va a ser el tipo de información que va a enviar este formulario-->
+                <button>Enviar</button>
+            </form>
+        </section>
+        <footer>footer</footer>
+    </body>
+</html>
