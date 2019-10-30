@@ -1,3 +1,19 @@
-body {
-    background: red !important;
+/*Reglas
+Selectores
+Declaraciones
+Propiedades
+valores*/
+
+/*Selector de etiqueta: header section article nav
+
+header {
+    background: pink;
 }
+selector descendente*//*
+body header div nav ol li a {}*/
+
+/*Selector de clase
+.link
+
+Selector de id
+#portafolio*/
