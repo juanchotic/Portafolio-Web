@@ -28,4 +28,14 @@ Para aplicar un propiedad a selectores diferentes los debemos separar por coma (
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Fjalla One', sans-serif;
+    font-weight: normal; /* peso de fuente*/
+   /* font-style: italic; estilo de la fuente */
+}
+
+h1 {
+    font-size: 40px; /*tamaño de fuente: font-size*/
+    line-height: 1.5em; /*propiedad para cambiar el alto de linea line-height*/
+    letter-spacing: -.2px; /*Espaciado de las letras*/
+   /* text-transform: uppercase; Transforma el texto a mayusculas o minusculas
+    text-decoration: dashed; */
 }
