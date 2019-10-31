@@ -17,3 +17,15 @@ body header div nav ol li a {}*/
 
 Selector de id
 #portafolio*/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*Cambiar la fuente a un elemento en especial
+
+Para aplicar un propiedad a selectores diferentes los debemos separar por coma (,)*/
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+}
