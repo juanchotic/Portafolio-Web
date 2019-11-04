@@ -37,5 +37,41 @@ h1 {
     line-height: 1.5em; /*propiedad para cambiar el alto de linea line-height*/
     letter-spacing: -.2px; /*Espaciado de las letras*/
    /* text-transform: uppercase; Transforma el texto a mayusculas o minusculas
-    text-decoration: dashed; */
+    text-decoration: dashed; Decoración del texto, subrayado*/
+    color: white;
+}
+
+h1 strong { /* Le damos un color a las etiquetas strong que se encuentran 
+                dentro del h1*/
+    color: #00E64D; 
+}
+
+.hero {
+    height: 300px;
+    background-image: url('../SENA - ECCL.jpg');
+    background-color: #423f3f;  /*Color de fondo para el hero */
+    background-size: 500px 300px; /* Ancho y alto de la imagen*/
+    background-repeat: no-repeat; /* Hace que no se repita nuestra imagen*/
+    background-position-x: right;  /*Posicion de la imagen en el eje x*/
+}
+
+.project-details { /*asigamos un ancho a la clase project-details*/
+    width: 500px;
+}
+
+/*Ancho del contenedor */
+.project-imageContainer {
+    width: 500px;
+}
+
+.header {
+    background-color: #9b9b9b; /*Color de fondo*/
+    color: white; /*Estilos a la letra*/
+}
+
+/*Estilos a los enlaces del header*/
+
+.header a {
+    color: white;
+    text-decoration: none; /*Quitarle el subrayado a nuestros enlaces*/
 }
