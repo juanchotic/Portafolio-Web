@@ -20,6 +20,7 @@ Selector de id
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 /*Cambiar la fuente a un elemento en especial
@@ -56,6 +57,10 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
     background-position-x: right;  /*Posicion de la imagen en el eje x*/
 }
 
+.portfolio {
+    background: #fafafa; /*color de fondo de el portafolio de proyectos destacados*/
+}
+
 .project {
     /* border-top: 10px solid red; Borde en la parte superior, tamaño tipo estilo
     border-right: 10px solid red;
@@ -72,10 +77,13 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;*/
+    margin: 10px;
     margin-bottom: 15px;
    /* margin-right: 0%;
     margin-left: 0%;
     margin-top: 0%; */
+    padding: 20px;
+    background: white; /*Color de Fondo de este contenedor*/
 }
 
 .project-details { /*asigamos un ancho a la clase project-details*/
