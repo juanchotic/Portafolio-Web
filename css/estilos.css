@@ -39,6 +39,7 @@ h1 {
    /* text-transform: uppercase; Transforma el texto a mayusculas o minusculas
     text-decoration: dashed; Decoración del texto, subrayado*/
     color: white;
+    margin: 100 px 150 px 70 px 30 px /*ESTRUCTURA DEL MARGIN: margin: top right bottom left;*/
 }
 
 h1 strong { /* Le damos un color a las etiquetas strong que se encuentran 
@@ -71,6 +72,10 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;*/
+    margin-bottom: 15px;
+   /* margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%; */
 }
 
 .project-details { /*asigamos un ancho a la clase project-details*/
