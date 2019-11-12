@@ -40,7 +40,7 @@ h1 {
    /* text-transform: uppercase; Transforma el texto a mayusculas o minusculas
     text-decoration: dashed; Decoración del texto, subrayado*/
     color: white;
-    margin: 100 px 150 px 70 px 30 px /*ESTRUCTURA DEL MARGIN: margin: top right bottom left;*/
+    margin: 100px 150px 70px 30px; /*ESTRUCTURA DEL MARGIN: margin: top right bottom left;*/
 }
 
 h1 strong { /* Le damos un color a las etiquetas strong que se encuentran 
@@ -84,7 +84,9 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
     margin-top: 0%; */
     padding: 20px;
     background: white; /*Color de Fondo de este contenedor*/
+    display: flex;
 }
+
 
 .project-details { /*asigamos un ancho a la clase project-details*/
     width: 500px;
@@ -106,3 +108,22 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
     color: white;
     text-decoration: none; /*Quitarle el subrayado a nuestros enlaces*/
 }
+
+
+.flexbox { /* PADRE */
+    display: flex;
+    flex-wrap: nowrap; /*Que ningun elemento caiga a la parte inferior */
+    flex-wrap: wrap;
+    flex-direction: row; /* Dirección de nuestro flex: en filas o en columnas */
+
+}
+
+ .box {   /*HIJO*/
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+
+    flex-shrink: 0; /* Capacidad de encojimiento de dicho elemento */
+} 
+
