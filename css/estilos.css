@@ -113,17 +113,18 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
 .flexbox { /* PADRE */
     display: flex;
     flex-wrap: nowrap; /*Que ningun elemento caiga a la parte inferior */
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*Que los elementos si caigan*/
     flex-direction: row; /* Dirección de nuestro flex: en filas o en columnas */
-
+    justify-content: space-between;
 }
 
  .box {   /*HIJO*/
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
     border: 1px solid red;
 
-    flex-shrink: 0; /* Capacidad de encojimiento de dicho elemento */
+    flex-shrink: 0; /* Capacidad de encojimiento de dicho elemento, para que no se altere el widht y el height (ancho y alto) */
 } 
 
