@@ -40,12 +40,14 @@ h1 {
    /* text-transform: uppercase; Transforma el texto a mayusculas o minusculas
     text-decoration: dashed; Decoración del texto, subrayado*/
     color: white;
-    margin: 100px 150px 70px 30px; /*ESTRUCTURA DEL MARGIN: margin: top right bottom left;*/
+    margin: 0;
+   /* margin: 100px 150px 70px 30px; /*ESTRUCTURA DEL MARGIN: margin: top right bottom left;*/
 }
 
 h1 strong { /* Le damos un color a las etiquetas strong que se encuentran 
                 dentro del h1*/
     color: #00E64D; 
+
 }
 
 .hero {
@@ -55,6 +57,8 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
     background-size: 500px 300px; /* Ancho y alto de la imagen*/
     background-repeat: no-repeat; /* Hace que no se repita nuestra imagen*/
     background-position-x: right;  /*Posicion de la imagen en el eje x*/
+    display: flex;
+    align-items: center;
 }
 
 .portfolio {
@@ -101,9 +105,9 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
     background-color: #9b9b9b; /*Color de fondo*/
     color: white; /*Estilos a la letra*/
     display: flex;
-    height: 187px;
+    height: 130px;
     justify-content: space-between;
-   /*  align-items: center; /*Alinea los items del menu al centro*/
+    align-items: center; /*Alinea los items del menu al centro*/
 }
 
 
@@ -165,3 +169,19 @@ figure { /*Quitar los margenes a los elementos figure*/
     flex-shrink: 0; /* Capacidad de encojimiento de dicho elemento, para que no se altere el widht y el height (ancho y alto) */
 } 
 
+
+.footer {
+    background-color: #9B9B9B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color:white;
+}
