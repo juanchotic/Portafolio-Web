@@ -100,6 +100,21 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
 .header {
     background-color: #9b9b9b; /*Color de fondo*/
     color: white; /*Estilos a la letra*/
+    display: flex;
+    height: 187px;
+    justify-content: space-between;
+   /*  align-items: center; /*Alinea los items del menu al centro*/
+}
+
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /*Quita la enumeracion de los items del menu*/
+}
+
+figure { /*Quitar los margenes a los elementos figure*/
+    margin: 0;
 }
 
 /*Estilos a los enlaces del header*/
@@ -107,6 +122,28 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
 .header a {
     color: white;
     text-decoration: none; /*Quitarle el subrayado a nuestros enlaces*/
+}
+
+.menu {
+    height: inherit; /*Alto heredado*/
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+    
+}
+
+.header ol li {
+    height: inherit;
+   
+}
+
+.header a {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 
