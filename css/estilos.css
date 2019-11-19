@@ -227,3 +227,50 @@ figure { /*Quitar los margenes a los elementos figure*/
 .footer a {
     color:white;
 }
+
+.event-list {
+    display: flex;
+}
+
+.event-list-title {
+    margin-left: 20px;
+}
+
+.event {
+   /* border: 1px solid red; */
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f4fbff ;
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative; /*Superponer elementos encima de otros*/
+    padding: 20px;
+    text-align: center;
+
+}
+
+.event-description {
+    text-align: left;
+}
+
+.description-url {
+    border: 1px solid #00E65E;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #00E65E;
+    border-radius: 5px;
+}
+
