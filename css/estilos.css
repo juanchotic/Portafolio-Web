@@ -44,10 +44,20 @@ h1 {
    /* margin: 100px 150px 70px 30px; /*ESTRUCTURA DEL MARGIN: margin: top right bottom left;*/
 }
 
+
+
 h1 strong { /* Le damos un color a las etiquetas strong que se encuentran 
                 dentro del h1*/
     color: #00E64D; 
+}
 
+h2 {
+    color: #00E64D;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
 }
 
 .hero {
@@ -63,6 +73,7 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
 
 .portfolio {
     background: #fafafa; /*color de fondo de el portafolio de proyectos destacados*/
+    padding: 20px;
 }
 
 .project {
@@ -81,7 +92,7 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;*/
-    margin: 10px;
+    /* margin: 10px; */
     margin-bottom: 15px;
    /* margin-right: 0%;
     margin-left: 0%;
@@ -89,8 +100,39 @@ h1 strong { /* Le damos un color a las etiquetas strong que se encuentran
     padding: 20px;
     background: white; /*Color de Fondo de este contenedor*/
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.project-course {
+    margin: 10 px 0;
+}
+
+.project-title,
+.project-date, 
+.project-url{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .project strong {
+    font-family: 'Fjalla One', sans-serif;
+  }
+  /* .project-date {
+    margin: 10px 0;
+  } */
+  
+  .project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+
+  .project-description {
+    font-size: 20px;
+  }
 
 .project-details { /*asigamos un ancho a la clase project-details*/
     width: 500px;
