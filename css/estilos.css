@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1 {
-    font-size: 40px; /*tamaño de fuente: font-size*/
+    font-size: xx-large; /*tamaño de fuente: font-size*/
     line-height: 1.5em; /*propiedad para cambiar el alto de linea line-height*/
     letter-spacing: -.2px; /*Espaciado de las letras*/
    /* text-transform: uppercase; Transforma el texto a mayusculas o minusculas
@@ -62,14 +62,18 @@ h2 {
 
 .hero {
     height: 300px;
-    background-image: url('../SENA - ECCL.jpg');
+  /*  background-image: url('../SENA - ECCL.jpg'); */
     background-color: #423f3f;  /*Color de fondo para el hero */
-    background-size: 500px 300px; /* Ancho y alto de la imagen*/
-    background-repeat: no-repeat; /* Hace que no se repita nuestra imagen*/
-    background-position-x: right;  /*Posicion de la imagen en el eje x*/
+   /* background-size: 500px 300px; /* Ancho y alto de la imagen*/
+   /* background-repeat: no-repeat; /* Hace que no se repita nuestra imagen*/
+   /* background-position-x: right;  /*Posicion de la imagen en el eje x*/
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
+.hero-image{
+    object-fit: cover;}
 
 .portfolio {
     background: #fafafa; /*color de fondo de el portafolio de proyectos destacados*/
@@ -230,6 +234,7 @@ figure { /*Quitar los margenes a los elementos figure*/
 
 .event-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .event-list-title {
@@ -333,4 +338,13 @@ figure { /*Quitar los margenes a los elementos figure*/
     font-family: 'Source Sans Pro', sans-serif;
   }
 
-  
+  .container {
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+  }
